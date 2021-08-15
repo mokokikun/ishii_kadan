@@ -368,7 +368,7 @@ header .header-container .menu .reserve .reserve-container p {
 main .first-view {
   height: 500px;
   width: 100vw;
-  background-image: url(../room_images/oheya-header.png);
+  background-image: url(room_images/oheya-header.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -634,7 +634,7 @@ main .room-contents .room-content3 .room-content-wrapper .room-content3-containe
 }
 
 footer .footer-container {
-  background-image: url(../images/bg3.png);
+  background-image: url(images/bg3.png);
   background-size: cover;
   background-position: center;
   padding-top: 64px;
