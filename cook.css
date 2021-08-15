@@ -368,7 +368,7 @@ header .header-container .menu .reserve .reserve-container p {
 main .first-view {
   height: 500px;
   width: 100vw;
-  background-image: url(../ohuro-images/onsen-header.png);
+  background-image: url(onsen-header.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -632,7 +632,7 @@ main .cook-contents .cook-content3 .cook-content-wrapper .cook-content3-containe
 }
 
 footer .footer-container {
-  background-image: url(../images/bg3.png);
+  background-image: url(bg3.png);
   background-size: cover;
   background-position: center;
   padding-top: 64px;
