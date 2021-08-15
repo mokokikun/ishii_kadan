@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お料理-石井花壇｜温海温泉旅館【公式サイト】</title>
+  <link rel="stylesheet" href="../css/cook.css">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container inner">
+      <h1>
+        <a href="index.html"><img id="scroll-logo" src="../images/top-header-logo.png" alt="石井花壇のロゴ"><img id="top-logo" src="../room_images/sub-header-logo.png" alt="石井花壇のロゴ"></a>
+      </h1>
+      <div class="menu" id="navArea">
+        <a href="#" class="reserve">
+          <div class="reserve-container">
+            <div class="calender-img">
+              <img src="../images/calender.png" alt="カレンダーのロゴ">
+              
+            </div>
+            <p>宿泊予約</p>
+          </div>
+        </a>
+        <nav id="humberNav">
+          <a href="#" class="reserve" id="reserve">
+            <div class="reserve-container">
+              <div class="calender-img">
+                <img src="../images/calender.png" alt="カレンダーのロゴ">
+              </div>
+              <p>宿泊予約</p>
+            </div>
+          </a>
+          <ul>
+            <li><a href="room.html">お部屋</a></li>
+            <li><a href="cook.html">お料理</a></li>
+            <li><a href="ohuro.html">温泉</a></li>
+          </ul>
+        </nav>
+        <div class="modal_book">
+          <div class="modal_book_top">
+            <a href="#" id="modal-close" class="colse-buttonj"><img src="../images/close.png" alt="閉じボタン"></a>
+            <h4>宿泊予約</h4>
+          </div>
+          <form action="">
+            <div class="form-container">
+              <div class="name">
+                <label>お名前</label>
+                <input type="text" placeholder="例：石井正悟">
+              </div>
+              <div class="address">
+                <label>メールアドレス</label>
+                <input type="email" placeholder="例：Example@example.com">
+              </div>
+              <div class="plan">
+                <label for="">ご希望プラン（空いているプランのみ表示されます）</label>
+                <select name="plan" placeholder="プランを選択してください">
+                  <option value="" class="plan-top">プランを選択してください</option>
+                  <option value="【期間限定】海辺の四季旬彩、贅沢美味懐石プラン">【期間限定】海辺の四季旬彩、贅沢美味懐石プラン </option>
+                  <option value="平日に優雅に楽しむ、特別宿泊プラン">平日に優雅に楽しむ、特別宿泊プラン</option>
+                  <option value="絶景貸切露天と個室会席を満喫できるファミリープラン">絶景貸切露天と個室会席を満喫できるファミリープラン</option>
+                </select>
+              </div>
+              <div class="date-select">
+                <label for="">日時選択</label>
+                <input type="text" id="calendar" data-mindate=today placeholder="日時を選択してください" readonly="readonly">
+              </div>
+              <div class="submit-btn">
+                <input type="submit" value="送信">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="btn01">
+          <div class="btn-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="mask"></div>
+        <div id="modal_mask"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="first-view">
+      <div class="fv-container">
+        <h1>お料理</h1>
+      </div>
+    </section>
+    <section class="cook-contents">
+      <!-- パンくず -->
+      <ol class="breadcrump" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <!-- 1つめ -->
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="index.html">
+              <span itemprop="name">トップ</span>
+          </a>
+          <meta itemprop="position" content="1" />
+        </li>
+      
+        <!-- 2つめ -->
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="room.html">
+              <span itemprop="name">お料理</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+      <!-- topメッセージ -->
+      <p class="top-message">地元熱海の市場で仕入れた食材のみを使った食材をふんだんに使い、<br>大将の技が光る「熱海料理」<br>四季ごと、日ごとに変化する味わいを、どうぞご堪能ください。</p>
+      <!-- 会席料理 -->
+      <div class="cook-content1">
+        <div class="cook-content-wrapper">
+          <div class="bg-img">
+            <img src="../images/bg.jpg" alt="バックの画像">
+          </div>
+          <div class="cook-img1">
+            <img src="../cook_images/menu01.png" alt="会席料理の画像">
+          </div>
+          <div class="cook-content1-container">
+            <h2>地元食材にこだわった会席料理</h2>
+            <p class="message">みずみずしくほのかに甘い野菜、新鮮で味に深みがある魚介類、肉類。<br>旬の素材をそのままに生かす、経験に裏打ちされた確かな技。<br>四季ごと、日ごとに変化する味わいを、どうぞご堪能ください。</p>
+          </div>
+        </div>
+      </div>
+      <!-- 魚 -->
+      <div class="cook-content2">
+        <div class="cook-content-wrapper">
+          <div class="bg-img">
+            <img src="../images/bg.jpg" alt="バックの画像">
+          </div>
+          <div class="cook-img2">
+            <img src="../cook_images/menu02.png" alt="庭園付き客室の画像">
+          </div>
+          <div class="cook-content2-container">
+            <h2>熱海の漁港で目利きの品を</h2>
+            <p class="message">石井花壇でお出しする料理はすべて料理長である大将の目利きで、<br>熱海の魚市場でその日のうちに仕入れたものを使用しております。<br>日本海の宝玉を十分にお楽しみください。</p>
+          </div>
+        </div>
+      </div>
+      <!-- 職人 -->
+      <div class="cook-content3">
+        <div class="cook-content-wrapper">
+          <div class="bg-img">
+            <img src="../images/bg.jpg" alt="バックの画像">
+          </div>
+          <div class="cook-img3">
+            <img src="../cook_images/menu03.png" alt="温泉付き客室の画像">
+          </div>
+          <div class="cook-content3-container">
+            <h2>食材が一流、職人も一流</h2>
+            <p class="message">石井花壇の料理人は料亭で20年経験を積んだものばかり。<br>その時の最も旬な食材を、最高の調理でお届けします。 また、お料理への細かいご要望にもお答えできますので、<br>お気軽にお申し付けください。</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <!-- フッター -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-nav">
+        <a href="#">温泉</a>
+        <a href="#">お料理</a>
+        <a href="room.html">お部屋</a>
+      </div>
+      <a href="index.html" class="footer-logo">
+        <img src="../images/footer-logo@2x.png" alt="石井花壇のロゴ">
+      </a>
+      <div class="footer-address">
+        <p>〒000-0000</p>
+        <p>山形県鶴岡市xxxxxxxxxxx</p>
+      </div>
+      <div class="footer-number">
+        <p>TEL.000-0000-0000</p>
+        <p>FAX.00-0000-0000</p>
+      </div>
+    </div>
+    <div class="copyright-wrapper">
+      <p>Copyright © 石井花壇 All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/room.js"></script>
+  <script>
+    flatpickr('#calendar');
+  </script>
+</body>
+</html>
