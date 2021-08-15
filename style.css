@@ -467,7 +467,7 @@ main .fv .fv-container .catch-copy .catch-copy-2 {
 }
 
 main .first-copy {
-  background-image: url(../images/bg.jpg);
+  background-image: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -985,7 +985,7 @@ main .bath .bath-container .bath-img img {
 main .plan {
   padding-bottom: 144px;
   margin-top: 78px;
-  background-image: url(../images/bg02.png);
+  background-image: url(bg02.png);
 }
 
 main .plan .plan-container {
@@ -1258,7 +1258,7 @@ main .news .news-contents .show .new-content .news-message .comment {
 }
 
 .access {
-  background-image: url(../images/bg.jpg);
+  background-image: url(bg.jpg);
   background-position: center;
   background-size: cover;
   margin-top: 60px;
@@ -1348,7 +1348,7 @@ main .news .news-contents .show .new-content .news-message .comment {
 }
 
 footer .footer-container {
-  background-image: url(../images/bg3.png);
+  background-image: url(bg3.png);
   background-size: cover;
   background-position: center;
   padding-top: 64px;
